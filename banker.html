@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banker</title>
+    <link rel="stylesheet" href="banker.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div><h1>Banker</h1></div>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">contact</a></li>
+        </nav>
+    </header>
+    <main>
+        <h3 class="error"></h3>
+        <form >
+            <div id="login">
+            <h3>login</h3>
+            <label for="">UserName</label>
+            <input type="text" name="name" id="username" placeholder="UserName">
+            <label for="">password</label>
+            <input type="password" name="name" id="password" placeholder="Password">
+            <div class="check">
+              
+                <p>Forget password</p>
+            </div>
+            <button type="submit" onclick="Validitylog(event)">Login</button>
+            <h5 class="not" onclick="login(event)"> Not a User <a href="#sign-up">sign up </a>here</h5>
+      </div>
+             <div id="sign-up">
+                    <h3>Sign-up</h3>
+
+                    <label for="">Firstname</label>
+                    <input type="text" name="name" id="Firstname" placeholder="Firstname">
+
+                    <label for="">LastName</label>
+                    <input type="text" name="name" id="Lastname" placeholder="LastName">
+
+                    <label for="">UserName</label>
+                    <input type="text" name="name" id="usernames" placeholder="UserName">
+
+                    <label for="">email</label>
+                    <input type="email" name="email" id="email" placeholder="Username@gjjk.com">
+
+                    <label for="">password</label>
+                    <input type="password" name="name" id="passwords" placeholder="Password">
+                    
+                    <button type="submit" onclick="Validitysign(event)">Sign-up</button>
+                    <h5 class="user"  onclick="signup(event)"> Regsiter User <a href="#login">login</a> here</h5>
+            </div> -->
+            
+        </form>
+    </main>
+</div>
+    <script src="banker.js"></script>
+</body>
+</html>
